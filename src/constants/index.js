@@ -77,7 +77,7 @@ import {
       icon: typescript,
     },
     {
-      name: "React JS",
+      name: "ReactJS",
       icon: reactjs,
     },
     {
@@ -89,7 +89,7 @@ import {
       icon: tailwind,
     },
     {
-      name: "Node JS",
+      name: "NodeJS",
       icon: nodejs,
     },
     {
@@ -97,7 +97,7 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
+      name: "ThreeJS",
       icon: threejs,
     },
     {
@@ -116,8 +116,8 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Sales & Marketing Director",
+      company_name: "Astech Projects",
       icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
@@ -129,8 +129,8 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Managing Director",
+      company_name: "Asteh Projects",
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
@@ -142,8 +142,8 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Business Development Director",
+      company_name: "Astech Projects",
       icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
@@ -155,11 +155,11 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Junior Software Developer",
+      company_name: "Manchester Codes",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Oct 2022 - May",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
