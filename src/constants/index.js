@@ -84,10 +84,10 @@ import {
     //   name: "Redux Toolkit",
     //   icon: redux,
     // },
-    // {
-    //   name: "Tailwind CSS",
-    //   icon: tailwind,
-    // },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
     {
       name: "NodeJS",
       icon: nodejs,
@@ -96,10 +96,10 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    // {
-    //   name: "ThreeJS",
-    //   icon: threejs,
-    // },
+    {
+      name: "ThreeJS",
+      icon: threejs,
+    },
     {
       name: "git",
       icon: git,
@@ -117,10 +117,23 @@ import {
   const experiences = [
     {
       title: "Junior Software Developer",
-      company_name: "Manchester Codes",
+      company_name: "Northcoders",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "October 2022 - May 2023",
+      date: "Nov 2023 - Feb 2024",
+      points: [
+        "Bootcamp, developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create web applications.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Junior Software Developer",
+      company_name: "Manchster Codes",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "Aug 2022 - Jul 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -131,22 +144,9 @@ import {
     {
       title: "Business Development Director",
       company_name: "Astech Projects",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "August 2022 - July 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Managing Director",
-      company_name: "Astech Projects",
       icon: shopify,
       iconBg: "#383E56",
-      date: "January 2021 - July 2022",
+      date: "Aug 2022 - Jul 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -172,26 +172,26 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Dr X",
-      designation: "CFO",
-      company: "Acme Co",
+        "I thought it was impossible to make a website as beautiful as our product, but Anthony proved me wrong.",
+      name: "Captain Kirk",
+      designation: "Captain",
+      company: "Starship Enterprise",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Mr Y",
-      designation: "COO",
-      company: "DEF Corp",
+        "I've never met a web developer who truly cares about their clients' success like Anthony does.",
+      name: "James Bond",
+      designation: "Special Agent 007",
+      company: "MI6",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Sir Z",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "After Anthony optimized our website, our traffic increased by 50%. We can't thank him enough!",
+      name: "Sir Richard Branson",
+      designation: "CEO",
+      company: "Virgin Group",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
